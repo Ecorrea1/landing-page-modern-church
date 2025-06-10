@@ -23,7 +23,7 @@ function App() {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
-    phone: '',
+    phone: '', 
     message: ''
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -44,6 +44,7 @@ function App() {
       setFormData({ name: '', email: '', phone: '', message: '' });
     }, 3000);
   };
+
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -76,7 +77,9 @@ function App() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
-                <Heart className="w-5 h-5 text-white" />
+          
+                <img src="src/assets/img/logo.png" alt="Logo" className="w-8 h-8 rounded-full object-cover" />
+                            
               </div>
               <span className="font-bold text-xl text-gray-900">Iglesia Comisionados Sin Fronteras</span>
             </div>
