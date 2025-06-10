@@ -143,7 +143,7 @@ function App() {
       <section id="inicio" className="relative min-h-screen flex items-center">
         <div className="absolute inset-0 bg-gradient-to-br from-blue-900 via-purple-900 to-blue-800"></div>
         <div className="absolute inset-0 bg-black/30"></div>
-        <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/8815071/pexels-photo-8815071.jpeg?auto=compress&cs=tinysrgb&w=1920&h=1280&fit=crop')] bg-cover bg-center mix-blend-overlay"></div>
+        <div className="absolute inset-0 bg-[url('/src/assets/img/people.jpeg')] bg-cover bg-center mix-blend-overlay"></div>
         
         <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <div className="max-w-4xl mx-auto">
