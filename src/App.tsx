@@ -325,7 +325,7 @@ function App() {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900">Dirección</h4>
-                        <p className="text-gray-600">Calle Principal 123, Ciudad, CP 12345</p>
+                        <p className="text-gray-600">Calle Gabriela Mistral 0371, Quilicura, Santiago</p>
                       </div>
                     </div>
 
@@ -504,8 +504,8 @@ function App() {
             <div>
               <h3 className="font-semibold text-lg mb-6">Contacto</h3>
               <ul className="space-y-3 text-gray-400">
-                <li>Calle Principal 123</li>
-                <li>Ciudad, CP 12345</li>
+                <li>Calle Gabriela Mistral 0371</li>
+                <li>Quilicura, Santiago</li>
                 <li>+52 123 456 7890</li>
                 <li>info@iglesiacsf.cl</li>
               </ul>
