@@ -78,7 +78,7 @@ function App() {
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
           
-                <img src="/assets/img/logo.jpg" alt="Logo" className="w-8 h-8 rounded-full object-cover" />
+                <img src="/src/assets/img/logo.jpg" alt="Logo" className="w-8 h-8 rounded-full object-cover" />
                             
               </div>
               <span className="font-bold text-xl text-gray-900">Iglesia Comisionados Sin Fronteras</span>
@@ -369,18 +369,16 @@ function App() {
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-6">Síguenos</h3>
                   <div className="flex space-x-4">
-                    <a href="#" className="w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-600 rounded-lg flex items-center justify-center text-white hover:shadow-lg transition-all transform hover:scale-110">
+                    <a href="https://www.instagram.com/comisionadossinfronteras" className="w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-600 rounded-lg flex items-center justify-center text-white hover:shadow-lg transition-all transform hover:scale-110">
                       <Instagram className="w-6 h-6" />
                     </a>
-                    <a href="#" className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-white hover:shadow-lg transition-all transform hover:scale-110">
+                    <a href="https://www.facebook.com/comisionadossinfronteras?_rdc=1&_rdr#" className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-white hover:shadow-lg transition-all transform hover:scale-110">
                       <Facebook className="w-6 h-6" />
                     </a>
-                    <a href="#" className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center text-white hover:shadow-lg transition-all transform hover:scale-110">
+                    <a href="https://www.youtube.com/@comisionadossinfronteras" className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center text-white hover:shadow-lg transition-all transform hover:scale-110">
                       <Youtube className="w-6 h-6" />
                     </a>
-                    <a href="#" className="w-12 h-12 bg-blue-400 rounded-lg flex items-center justify-center text-white hover:shadow-lg transition-all transform hover:scale-110">
-                      <Twitter className="w-6 h-6" />
-                    </a>
+                   
                   </div>
                 </div>
               </div>
@@ -514,13 +512,13 @@ function App() {
             <div>
               <h3 className="font-semibold text-lg mb-6">Síguenos</h3>
               <div className="flex space-x-4">
-                <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-pink-500 hover:to-purple-600 transition-all">
+                <a href="https://www.instagram.com/comisionadossinfronteras" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-pink-500 hover:to-purple-600 transition-all">
                   <Instagram className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-all">
+                <a href="https://www.facebook.com/comisionadossinfronteras?_rdc=1&_rdr#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-all">
                   <Facebook className="w-5 h-5" />
                 </a>
-                <a href="#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-red-600 transition-all">
+                <a href="https://www.youtube.com/@comisionadossinfronteras" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-red-600 transition-all">
                   <Youtube className="w-5 h-5" />
                 </a>
               </div>
