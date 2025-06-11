@@ -5,17 +5,16 @@ import {
   MapPin, 
   Phone, 
   Mail, 
-  Heart, 
   Users, 
   Book, 
-  Music,
   Instagram,
   Facebook,
   Youtube,
-  Twitter,
   Send,
   Clock,
-  CheckCircle
+  CheckCircle,
+  Home,
+  LucideHeartHandshake
 } from 'lucide-react';
 
 function App() {
@@ -205,7 +204,7 @@ function App() {
                     <div className="text-center text-white">
                       <Youtube className="w-16 h-16 mx-auto mb-4 text-red-500" />
                       <h3 className="text-2xl font-semibold mb-2">Próximo Servicio</h3>
-                      <p className="text-gray-300">Domingo a las 10:00 AM</p>
+                      <p className="text-gray-300">Domingo a las 11:30 AM</p>
                     </div>
                   </div>
                 )}
@@ -247,41 +246,71 @@ function App() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+
             <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-2xl border border-blue-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center mb-6">
-                <Users className="w-8 h-8 text-white" />
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-blue-600 rounded-full flex items-center justify-center mb-6">
+                <Home className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Principal</h3>
-              <p className="text-gray-600 mb-4">Culto dominical con predicación, adoración y comunión.</p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Casas de Paz</h3>
+              <p className="text-gray-600 mb-4">Tiempo especial de reunion en las casas en diferentes partes de la comuna.</p>
               <div className="flex items-center text-blue-600 font-semibold">
                 <Clock className="w-5 h-5 mr-2" />
-                Domingos 10:00 AM
-              </div>
-            </div>
-
-            <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl border border-green-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
-              <div className="w-16 h-16 bg-gradient-to-br from-green-600 to-emerald-600 rounded-full flex items-center justify-center mb-6">
-                <Book className="w-8 h-8 text-white" />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Estudio Bíblico</h3>
-              <p className="text-gray-600 mb-4">Profundiza en la Palabra de Dios con estudios semanales.</p>
-              <div className="flex items-center text-green-600 font-semibold">
-                <Clock className="w-5 h-5 mr-2" />
-                Miércoles 7:00 PM
+                Diferentes horarios y lugares    
               </div>
             </div>
 
             <div className="bg-gradient-to-br from-yellow-50 to-orange-50 p-8 rounded-2xl border border-yellow-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
               <div className="w-16 h-16 bg-gradient-to-br from-yellow-600 to-orange-600 rounded-full flex items-center justify-center mb-6">
-                <Music className="w-8 h-8 text-white" />
+                <LucideHeartHandshake className="w-8 h-8 text-white" />
               </div>
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Alabanza y Adoración</h3>
-              <p className="text-gray-600 mb-4">Tiempo especial de música y adoración a Dios.</p>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Reunion de Oracion</h3>
+              <p className="text-gray-600 mb-4">Tiempo de comunicacion con Dios en nuetro templo.</p>
               <div className="flex items-center text-orange-600 font-semibold">
+                <Clock className="w-5 h-5 mr-2" />
+                Miercoles 12:00 AM y 20:00 PM <br />
+                Sabado 18:00 PM
+              </div>
+            </div>
+            
+            <div className="bg-gradient-to-br from-purple-50 to-orange-50 p-8 rounded-2xl border border-black-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-16 h-16 bg-gradient-to-br from-purple-600 to-orange-600 rounded-full flex items-center justify-center mb-6">
+                <Users className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Reunion de Jovenes</h3>
+              <p className="text-gray-600 mb-4">Tiempo especial de música y adoración a Dios.</p>
+              <div className="flex items-center text-purple-600 font-semibold">
                 <Clock className="w-5 h-5 mr-2" />
                 Viernes 7:30 PM
               </div>
             </div>
+            
+            <div className="bg-gradient-to-br from-green-50 to-emerald-50 p-8 rounded-2xl border border-green-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-16 h-16 bg-gradient-to-br from-green-600 to-emerald-600 rounded-full flex items-center justify-center mb-6">
+                <Book className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Escuela Domincal</h3>
+              <p className="text-gray-600 mb-4">Profundiza en la Palabra de Dios con estudios semanales.</p>
+              <div className="flex items-center text-green-600 font-semibold">
+                <Clock className="w-5 h-5 mr-2" />
+                Domingos 10:00 AM
+              </div>
+            </div>
+
+            <div className="bg-gradient-to-br from-blue-50 to-purple-50 p-8 rounded-2xl border border-blue-100 hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2">
+              <div className="w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center mb-6">
+                <Users className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-2xl font-bold text-gray-900 mb-4">Servicio Dominical</h3>
+              <p className="text-gray-600 mb-4">Culto dominical con predicación, adoración y comunión.</p>
+              <div className="flex items-center text-blue-600 font-semibold">
+                <Clock className="w-5 h-5 mr-2" />
+                Domingos 11:30 AM
+              </div>
+            </div>
+
+            
+
+            
           </div>
 
           <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 md:p-12 text-white text-center">
@@ -357,8 +386,16 @@ function App() {
                         <h4 className="font-semibold text-gray-900">Horarios de Servicio</h4>
                         <p className="text-gray-600">
                           Domingos: 10:00 AM<br/>
-                          Miércoles: 7:00 PM<br/>
-                          Viernes: 7:30 PM
+                          - Culto dominicales 11:30 am<br/>
+                          - Escuela Dominical 10:00 am<br/>
+
+                          Sabado: Reunion de Oracion 18:00 hrs<br />
+                          
+                          Viernes: Union de Jovenes 19:00 hrs<br />
+                          
+                          Miércoles: Reuniones de oración 12:00 del día 20:00 hrs<br/>
+
+                          Casas de paz : Grupos pequeños (en diferentes horarios y lugares de la comuna )
                         </p>
                       </div>
                     </div>
@@ -480,7 +517,8 @@ function App() {
             <div>
               <div className="flex items-center space-x-2 mb-6">
                 <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
-                  <Heart className="w-5 h-5 text-white" />
+                  {/* <Heart className="w-5 h-5 text-white" /> */}
+                  <img src="/src/assets/img/logo.jpg" alt="Logo" className="w-8 h-8 rounded-full object-cover" />
                 </div>
                 <span className="font-bold text-xl">Iglesia Comisionados Sin Fronteras</span>
               </div>
