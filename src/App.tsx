@@ -84,21 +84,21 @@ function App() {
             </div>
             
             <div className="hidden md:flex items-center space-x-8">
-              <button onClick={() => scrollToSection('inicio')} className="text-gray-700 hover:text-blue-600 transition-colors">
+              <button onClick={() => scrollToSection('inicio')} className="text-yellow-500 hover:text-gray-600 transition-colors">
                 Inicio
               </button>
-              <button onClick={() => scrollToSection('transmision')} className="text-gray-700 hover:text-blue-600 transition-colors">
+              <button onClick={() => scrollToSection('transmision')} className="text-yellow-500 hover:text-gray-600 transition-colors">
                 En Vivo
               </button>
-              <button onClick={() => scrollToSection('servicios')} className="text-gray-700 hover:text-blue-600 transition-colors">
+              <button onClick={() => scrollToSection('servicios')} className="text-yellow-500 hover:text-gray-600 transition-colors">
                 Servicios
               </button>
-              <button onClick={() => scrollToSection('contacto')} className="text-gray-700 hover:text-blue-600 transition-colors">
+              <button onClick={() => scrollToSection('contacto')} className="text-yellow-500 hover:text-gray-600 transition-colors">
                 Contacto
               </button>
               <button 
                 onClick={() => scrollToSection('contacto')} 
-                className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105"
+                className="bg-gradient-to-r from-yellow-400 to-yellow-400 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300 transform hover:scale-105"
               >
                 Únete
               </button>
@@ -313,7 +313,7 @@ function App() {
             
           </div>
 
-          <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-8 md:p-12 text-white text-center">
+          <div className="bg-gradient-to-r from-yellow-500 to-yellow-400 rounded-2xl p-8 md:p-12 text-white text-center">
             <h3 className="text-3xl font-bold mb-4">¿Primera vez visitándonos?</h3>
             <p className="text-xl mb-8 text-blue-100">
               Te damos la más cordial bienvenida. Estamos aquí para apoyarte en tu jornada espiritual.
@@ -497,7 +497,7 @@ function App() {
 
                     <button
                       type="submit"
-                      className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2"
+                      className="w-full bg-gradient-to-r from-yellow-400 to-yellow-400 text-white py-4 px-6 rounded-lg font-semibold text-lg hover:shadow-lg transition-all duration-300 transform hover:scale-105 flex items-center justify-center space-x-2"
                     >
                       <Send className="w-5 h-5" />
                       <span>Enviar Mensaje</span>
@@ -511,7 +511,7 @@ function App() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-16">
+      <footer className="bg-gray-800 text-white py-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             <div>
