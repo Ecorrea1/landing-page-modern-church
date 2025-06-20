@@ -16,6 +16,7 @@ import {
   Home,
   LucideHeartHandshake
 } from 'lucide-react';
+import logo from './assets/img/logo.jpg'; // Adjust the path as necessary
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -76,9 +77,7 @@ function App() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-2">
               <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
-          
-                <img src="/src/assets/img/logo.jpg" alt="Logo" className="w-8 h-8 rounded-full object-cover" />
-                            
+                <img src={logo} alt="Logo" className="w-8 h-8 rounded-full object-cover" />
               </div>
               <span className="font-bold text-xl text-gray-900">Iglesia Comisionados Sin Fronteras</span>
             </div>
@@ -518,7 +517,7 @@ function App() {
               <div className="flex items-center space-x-2 mb-6">
                 <div className="w-8 h-8 bg-gradient-to-br from-blue-600 to-purple-600 rounded-full flex items-center justify-center">
                   {/* <Heart className="w-5 h-5 text-white" /> */}
-                  <img src="/src/assets/img/logo.jpg" alt="Logo" className="w-8 h-8 rounded-full object-cover" />
+                  <img src={logo} alt="Logo" className="w-8 h-8 rounded-full object-cover" />
                 </div>
                 <span className="font-bold text-xl">Iglesia Comisionados Sin Fronteras</span>
               </div>
