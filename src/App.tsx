@@ -405,7 +405,7 @@ function App() {
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-6">Síguenos</h3>
                   <div className="flex space-x-4">
-                    <a href="https://www.instagram.com/comisionadossinfronteras" className="w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-600 rounded-lg flex items-center justify-center text-white hover:shadow-lg transition-all transform hover:scale-110">
+                    <a href="https://www.instagram.com/csf.oficial_" className="w-12 h-12 bg-gradient-to-br from-pink-500 to-purple-600 rounded-lg flex items-center justify-center text-white hover:shadow-lg transition-all transform hover:scale-110">
                       <Instagram className="w-6 h-6" />
                     </a>
                     <a href="https://www.facebook.com/comisionadossinfronteras?_rdc=1&_rdr#" className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center text-white hover:shadow-lg transition-all transform hover:scale-110">
