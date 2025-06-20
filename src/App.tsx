@@ -549,7 +549,7 @@ function App() {
             <div>
               <h3 className="font-semibold text-lg mb-6">Síguenos</h3>
               <div className="flex space-x-4">
-                <a href="https://www.instagram.com/comisionadossinfronteras" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-pink-500 hover:to-purple-600 transition-all">
+                <a href="https://www.instagram.com/csf.oficial_" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-gradient-to-br hover:from-pink-500 hover:to-purple-600 transition-all">
                   <Instagram className="w-5 h-5" />
                 </a>
                 <a href="https://www.facebook.com/comisionadossinfronteras?_rdc=1&_rdr#" className="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-blue-600 transition-all">
